@@ -1,19 +1,13 @@
 body{
-    /* background-color:#64ae1a9e; */
     background-color:#8CC461;
 
     font-family: 'Roboto';
-    /* background-color:#2E9A2563 */
 }
 #game{
-    /* text-align: center; */
-    /* align-content: center; */
     margin-top: 25px;
     font-family: 'Roboto';
 }
-/* .m-auto{
-    margin: 0 auto;
-} */
+
 #bar{
 
     display: flex;
@@ -21,8 +15,6 @@ body{
     border: 1.5px solid white;
     border-radius: 5px;
     width: 65%;
-   
-    /* align-items: center; */
     margin: 0 auto;
     justify-content: space-between;
     
@@ -37,8 +29,6 @@ body{
 }
 p{
     margin: 0px;
-    /* color: white; */
-    /* font-size: 17=5px; */
 }
 .scoreCard{
     background-color: white;
@@ -49,7 +39,6 @@ p{
     text-align: center;
     font-size: 0.7em;
     font-weight: 550;
-    /* height: 50%; */
     width: 12%;
     border-radius: 5px;
 }
@@ -58,24 +47,13 @@ p{
     font-size: 30px;
     margin: 0px;
 }
-/* #icons{
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 15px solid red;
-} */
+
 
 #icons-1{
-    /* display: flex; */
-    /* margin: 0px; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
     width: 18em;
     margin: 0 auto;
     align-items: center;
     margin-top: 30px;
-    /* position: relative; */
     
 }
 
@@ -85,11 +63,9 @@ p{
     height:4rem;
     line-height: 90px;
     width: 4rem;
-    /* margin: 10px 0px; */
     text-align: center;
     cursor: pointer;
     z-index: 1;
-    /* outline: 5px  solid red; */
     
 }
 .icon img{
@@ -174,7 +150,6 @@ p{
 }
 .line-height{
     height: 120%;
-    /* height: 5em; */
 }
 
 
@@ -264,11 +239,7 @@ p{
     position: fixed;
     bottom: 3.2rem;
     right: 2.2rem;
-    /* min-height: 15rem; */
-    /* overflow: hidden; */
     width: 20%;
-    /* height: 50%; */
-    /* top: 100px; */
     
 }
 #cross{
@@ -297,7 +268,6 @@ p{
 }
 
 .rule{
-    /* font-size: 0.6rem; */
     font-size: 60%;
 }
 .list{
@@ -324,11 +294,6 @@ li::marker{
 
     width: 35%;
 
-    /* width: 25rem;
-    height: 15rem; */
-    
-    
-
 }
 #starsImg{
     width: 100%;
@@ -339,7 +304,6 @@ li::marker{
     position: absolute;
     right: 30%;
     top: 30%;
-    
     
 }
 #hurray{

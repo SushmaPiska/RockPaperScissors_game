@@ -22,20 +22,6 @@ let urScore=document.getElementById("urScore")
 let comScore=document.getElementById("comScore")
 
 
-//////yourScore/////////////////////////////////
-
-
-// localStorage.setItem("yourScore",urScore.innerHTML )
-// localStorage.setItem("computerScore",comScore.innerHTML) 
-
-
-
-
-
-///////////////////////
-
-//computerScore/////////////////
-
 
 rulesBtn.addEventListener("click", () => {
   rulesPop.classList.remove("hidden");
@@ -170,7 +156,6 @@ let playButton2 = document.getElementById("playButton-2");
 playButton2.addEventListener("click", () => {
   extra2.classList.add("hidden");
   extra.classList.remove("hidden");
-  // state2.classList.remove("hidden");
 
   resultPage.classList.add("hidden");
   main.classList.remove("hidden");
@@ -179,7 +164,4 @@ playButton2.addEventListener("click", () => {
   console.log("play clicked");
 });
 
-////rules///////////////////////////////////////////
 
-
-//////////////////////////////////////
