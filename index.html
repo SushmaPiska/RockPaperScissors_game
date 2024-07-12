@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="game">
+        <div id="extra" class="">
+            <div id="bar">
+                <div id="name">
+                    <p>ROCK</p>
+                    <p>PAPER</p>
+                    <p>SCISSORS</p>
+                </div>
+                <div class="scoreCard">
+                    <p>COMPUTER</p>
+                    <p>SCORE</p>
+                    <P id="comScore"></P>
+                </div>
+                <div class="scoreCard">
+                    <p>YOUR</p>
+                    <p>SCORE</p>
+                    <P id="urScore"></P>
+                </div>
+            </div>
+            <div class="" id="mainPage">
+                <div id="icons-1" class="flex-row-2">
+                    <div class="icon border clickMe " id="rock">
+                        <img id="rock" class="clickMe" src="icons/fist.png" alt="">
+                    </div>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    
+                    <div class="line line3"></div>
+                    <div class="icon border clickMe" id="scissors">
+                        <img id="scissors" class="clickMe" src="icons/scissor.png" alt="">
+                    </div>
+                </div>
+                <!-- <div id="line-row" class="">
+                    <div class="flex-row 
+                  width30 x-center line-height">
+                        <div class="line slant1"></div>
+                        <div class="line slant2"></div>
+                    </div>
+                </div> -->
+                <div class="m-auto" id="icons-2">
+                    <div class="icon border clickMe m-auto" id="paper">
+                        <img id="paper" class="clickMe" src="icons/hand.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden" id="page-2">
+                <div id="p2Icons" class="flex-row">
+                    <div class="flex-col">
+                        <div id="pickPara">
+                            <p class="white">YOU PICKED</p>
+                        </div>
+                        <div id="uPick" class=" border icon p2Icon">
+                            <img id="urImage" src="" alt="">
+                        </div>
+                    </div>
+                    <div class="resultText flex-item ">
+                        <p class="white text-center font-1" id="state1"></p>
+                        <p id="state2" class="white text-center m-top">AGAINST PC</p>
+                        <button id="playButton" class="m-1">PLAY AGAIN</button>
+                    </div>
+                    <div class="flex-col">
+                        <div id="pickPara">
+                            <p class="white">PC PICKED</p>
+                        </div>
+                        <div id="pcPick" class="icon border p2Icon flex-item">
+                            <img id="pcImage" src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="extra2" class="hidden">
+            <div id="winPage" class="x-center flex-col">
+                <div id="winPic">
+                    <img id="starsImg" src="pics/stars.png" alt="" class="x-center">
+                    <img id="cupImg" src="pics/cup.png" alt="">
+                </div>
+                <div>
+                    <h1 id="hurray" class="white font-gap-5">HURRAY!!</h1>
+                    <H3 class="white font-gap-3">YOU WON THE GAME</H3>
+                    <button id="playButton-2">PLAY AGAIN</button>
+                </div>
+            </div>
+        </div>
+        <div id="rulesPop" class="hidden">
+            <div id="cross">X</div>
+            <div id="rulesBox" class="white">
+                <h2 class="x-center">Game Rules</h2>
+                <ul class="list">
+                    <li>
+                        <p class="rule">Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+                    </li>
+                    <li>
+                        <p class="rule">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot”
+                            or
+                            just “rock, paper,
+                            scissors.”</p>
+                    </li>
+                    <li>
+                        <p class="rule">Use rock, paper, scissors to settle minor decisions or simply play to pass
+                            the
+                            time</p>
+                    </li>
+                    <li>
+                        <p class="rule">If both players lay down the same hand, each player lays down another hand
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="rulesBtn" class="btn2 pos1">RULES</button>
+        <button id="nextBtn" class="btn2 pos1 hidden">NEXT</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
